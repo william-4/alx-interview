@@ -9,6 +9,7 @@ def rotate_2d_matrix(matrix):
     Function that rotates a 2d n * n matrix 90 degrees clockwise
     """
     # First Transpose the matrix
+    i = 0
     while i < len(matrix):
         j = i
         while j < len(matrix[0]):
