@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module defining a function makeChange"""
 
+
 def makeChange(coins, total):
     """
     Determing fewest number of coins needed to meet a given amount total
