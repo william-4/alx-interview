@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/python3
+"""Module defining a function makeChange"""
 
 def makeChange(coins, total):
     """
