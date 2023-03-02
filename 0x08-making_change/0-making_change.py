@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
+"""Module defining a function makeChange"""
+
 
 def makeChange(coins, total):
     """
@@ -7,7 +9,7 @@ def makeChange(coins, total):
         coins (list of ints): list of coins of different values
         total (int): total value to be met
     Return:
-        Number of coins or 
+        Number of coins or
         -1 if total cannot be met by any number of coins
         0 if total <= 0
     """
