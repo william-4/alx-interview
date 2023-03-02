@@ -3,6 +3,7 @@
 Module defining a function to calcutate perimeter
 """
 
+
 def island_perimeter(grid: list[list]):
     """
     Returns perimeter of an island
