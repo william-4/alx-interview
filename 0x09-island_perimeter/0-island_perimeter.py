@@ -4,7 +4,7 @@ Module defining a function to calcutate perimeter
 """
 
 
-def island_perimeter(grid: list[list]):
+def island_perimeter(grid):
     """
     Returns perimeter of an island
     Args:
@@ -12,6 +12,9 @@ def island_perimeter(grid: list[list]):
     Return:
         Perimeter of the island
     """
+    if grid is None:
+        return
+    
     perimeter = 0
     for row in range(len(grid)):
         for item in range(len(grid[row])):
