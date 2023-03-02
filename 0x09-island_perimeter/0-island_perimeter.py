@@ -1,4 +1,16 @@
+#!/usr/bin/python3
+"""
+Module defining a function to calcutate perimeter
+"""
+
 def island_perimeter(grid: list[list]):
+    """
+    Returns perimeter of an island
+    Args:
+        grid (list): list of lists representing the island and water body
+    Return:
+        Perimeter of the island
+    """
     perimeter = 0
     for row in range(len(grid)):
         for item in range(len(grid[row])):
