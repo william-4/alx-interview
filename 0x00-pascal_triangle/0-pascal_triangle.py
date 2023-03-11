@@ -21,6 +21,6 @@ def pascal_triangle(n):
         List[row].append(1)
         for index in range(1, row):
             List[row].append(List[row-1][index-1] + List[row-1][index])
-        if (n != 0):
+        if (row != 0):
             List[row].append(1)
     return (List)
