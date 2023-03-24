@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 Define validUTF8(data) function that validates whether a
 string of ints represents a valid UTF-8 encoding.
@@ -21,14 +21,7 @@ def int_to_bits(nums):
 
 
 def validUTF8(data):
-    """
-    Takes a list of ints and returns true if the list is
-    a valid UTF-8 encoding, else returns false
-    Args:
-        data : List of ints representing possible UTF-8 encoding
-    Return:
-        bool : True or False
-    """
+    """Method to det. if data set represents valid UTF-8 encoding"""
     bits = int_to_bits(data)
     for byte in bits:
         # if single byte char, then valid. continue
